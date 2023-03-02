@@ -178,7 +178,7 @@
                 if ( key!="cv" ) {
                   return (["Document Not found! -_- "]).join("\n");
                 }else{
-                  window.open('https://drive.google.com/file/d/177refMqbqhGN8KmfmNEJ7CfOHRfjeFTM/view?usp=sharing');
+                  window.open('cv_eng.pdf');
                 }
             }
     },
