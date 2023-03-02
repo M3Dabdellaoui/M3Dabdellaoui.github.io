@@ -19,7 +19,7 @@
       'skills': {type: 'file', mime: 'text/plain', content: "\nFundamentals       : ||||||||||||||||||||  100%'\n\nlinux           :   |||||||||||||||||   85%'\n\nWeb Exploitation     : ||||||||||||||||    81%\n\nWindows Exploitation   :   ||||||||||||      57%\n\nNetwork Exploitation :   ||||||||||||||||||    87%\n\nPrivilege Escalation : ||||||||||||      60%\n\nBased on TryHackMe skill matrix.\n"},
       'cv': {type: 'file', mime: 'text/plain', content: "here's the link to my cv: 'shorturl.at/jMZ89' \nOr you type the following command : show cv"},
       'secret': {type: 'file', mime: 'text/plain', content: "59 31 52 4f 64 31 70 58 65 47 70 61 65 6b 35 34"},
-      'copyrights': {type: 'file', mime: 'text/plain', content: "coprights!"}
+      'copyrights': {type: 'file', mime: 'text/plain', content: "All rights reserved"}
     }},
   };
 
