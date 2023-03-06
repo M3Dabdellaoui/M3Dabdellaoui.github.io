@@ -1,12 +1,85 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>CLI</title>
-    <link rel="shortcut icon" type="image/png" href="console.png" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-	<script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Loading Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #000;
+      }
+      .loading{
+        color: white;
+        font-size: 24px;
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .loading-bar-container {
+        width: 300px;
+        height: 25px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #5CE1E6;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .loading-bar {
+        height: 100%;
+        width: 0;
+        background-color: #5CE1E6;
+        animation: loadingBarAnimation 2s ease-out forwards;
+      }
+
+      .loading-percent {
+        color: white;
+        font-size: 24px;
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      @keyframes loadingBarAnimation {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
-  <body>  
-      <textarea id="output"></textarea> 
-      <img id="side" src="background.png" >
+  <body>
+    <div class="loading">Loading...</div>
+    <div class="loading-bar-container">
+      <div class="loading-bar"><div class="loading-percent"></div></div>
+    </div>
+    <script>
+      // Update the loading percentage and progress bar width every 50ms
+      let percentValue = 0;
+      const percentElement = document.querySelector('.loading-percent');
+      const barElement = document.querySelector('.loading-bar');
+
+      const updateProgressBar = () => {
+        percentValue += 1;
+        if (percentValue <= 100) {
+          percentElement.textContent = `${percentValue}%`;
+          barElement.style.width = `${percentValue}%`;
+          setTimeout(updateProgressBar, 18);
+        } else {
+          window.location.replace('index.html');
+        }
+      };
+
+      updateProgressBar();
+    </script>
   </body>
 </html>
