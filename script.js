@@ -178,7 +178,7 @@
                 if ( key!="cv" ) {
                   return (["Document Not found! -_- "]).join("\n");
                 }else{
-                  window.open('cv_eng.pdf');
+                  window.open('Docs/cv_eng.pdf');
                 }
             }
     },
