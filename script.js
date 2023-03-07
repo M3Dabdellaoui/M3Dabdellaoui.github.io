@@ -536,6 +536,13 @@
       update();
     };
 
+    document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key === 'l') {
+      clear();
+      event.preventDefault();
+    }
+    });
+
     //print("------------------------------------------------------------------------------------------------------------------");
     print("            _         _      _ _                   _   __  __       _                              _ \n", true);
     print("      /\\   | |       | |    | | |                 (_) |  \\/  |     | |                            | |\n", true);
