@@ -132,7 +132,7 @@
           window.open('https://github.com/M3Dabdellaoui/');
           break;
         case 'linkedin' :
-          window.open('https://www.linkedin.com/in/mohamed-abdellaoui-067b891a5/');
+          window.open('https://www.linkedin.com/in/mohamed-abdellaoui/');
           break;
         case 'instagram' :
           window.open('https://instagram.com/abdellaouiii_m3d');
@@ -198,7 +198,7 @@
       
             out = [
               "\nMy socials:\n",
-              'LinkedIn       http://www.linkedin.com/in/mohamed-abdellaoui-067b891a5/',
+              'LinkedIn       http://www.linkedin.com/in/mohamed-abdellaoui/',
               'Instagram      http://instagram.com/abdellaouiii_m3d',
               '               http://instagram.com/drvw_m3',
               'Twitter        https://twitter.com/#!/Abdellaoui_M3D',
