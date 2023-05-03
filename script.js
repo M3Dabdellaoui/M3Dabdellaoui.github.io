@@ -18,7 +18,7 @@
       'description': {type: 'file', mime: 'text/plain', content: "Attention all hackers, brace yourself because this 21-year-old cyber security superhero is \nready to save the internet from your evil ways! I'm studying at the National School of \nApplied Sciences of Marrakech, where I'm learning how to use my superpowers to defend\nthe digital world from malicious attacks. My skills are sharp, my knowledge is vast, and I've\ngot more energy than a hyperactive toddler on a sugar high. I'm like Batman, but instead of\nfighting crime on the streets, I'm fighting crime in cyberspace. So, hackers beware, I'm \ncoming for you and I've got a laptop loaded with weapons of mass protection! Buckle up, \nit's gonna be a wild ride!"},
       'skills': {type: 'file', mime: 'text/plain', content: "\nFundamentals         : ||||||||||||||||||||  100%\n\nlinux                : |||||||||||||||||     85%\n\nWeb Exploitation     : ||||||||||||||||      81%\n\nWindows Exploitation : ||||||||||||          57%\n\nNetwork Exploitation : ||||||||||||||||||    87%\n\nPrivilege Escalation : ||||||||||||          60%\n\nBased on TryHackMe skill matrix.\n"},
       'cv': {type: 'file', mime: 'text/plain', content: "here's the link to my cv: 'shorturl.at/jMZ89' \nOr you type the following command : show cv"},
-      'flag.txt': {type: 'file', mime: 'text/plain', content: "CyberSecurityWeek: \n\t + congrats!! you made it. Here is your flag :CRISIS{T1M3_TR4V3L}"},
+      'flag.txt': {type: 'file', mime: 'text/plain', content: "\nCyberSecurityWeek: \n\t + congrats!! you made it. Here is your flag : CRISIS{T1M3_TR4V3L}"},
       'copyrights': {type: 'file', mime: 'text/plain', content: "All rights reserved"}
     }},
   };
