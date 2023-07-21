@@ -32,6 +32,7 @@ body {
 #side{
   height: 100%;
   background : none;
+  margin-right: non;
 }
 
 
@@ -113,21 +114,22 @@ body {
       --color: blue;
   }
 
-  @media (max-width: 1700px) { 
+  @media (max-width: 1700px){ 
     #side {
-      display: none;
-    }
+    height: 80%;
+  }
+    
     #output {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 1;
 
     }
   }
 /**********************************************************/
- @media (max-width: 1500px) { 
+ @media (max-width: 1550px) { 
   #output {
     margin-top:200px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1;
 
   }
