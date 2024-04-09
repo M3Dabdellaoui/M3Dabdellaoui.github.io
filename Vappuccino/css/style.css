@@ -1,0 +1,41 @@
+/*********************************** Categories ***************************************/
+section.services {
+	padding-bottom: 100px;
+}
+
+.services .service-item  a {
+	text-decoration: none;
+}
+
+.services .service-item {
+	text-align: center;
+}
+
+.category-images {
+	max-width: 100%;
+	overflow: hidden;
+	/* border: 10px solid #ffc107;
+	border-radius: 50%; */
+}
+
+.category-title {
+	margin-top: 20px;
+	font-size: 22px;
+	color: #121212;
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+
+
+
+/* #category-bg{
+  background-position: center;
+  background-image: url(../img/nasty-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.9);
+
+} */
